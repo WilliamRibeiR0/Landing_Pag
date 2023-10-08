@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>LandingPag</title>
+    </head>
+    <body>
+        <main>
+            <section class="container_top">
+                <div class="box_title">
+                    <h1>Evento Dev</h1>
+                    <p>um evento para revolucionar</p>
+                    <h2>Data do evento:</h2>
+                    <span id="day"
+                        >Domingo, 25 de julho, a partir das 15h00</span
+                    >
+                </div>
+                <div>
+                    <form>
+                        <p>
+                            Preencha o formulário para receber os detalhes do
+                            evento
+                        </p>
+                        <div class="box_form">
+                            <label for="name">Nome</label>
+                            <input type="text" placeholder="Digite seu nome" />
+                        </div>
+                        <div class="box_form">
+                            <label for="email">E-mail</label>
+                            <input type="email" placeholder="Digite seu nome" />
+                        </div>
+                        <div class="box_form">
+                            <label for="phone">Telefone</label>
+                            <input
+                                type="text"
+                                placeholder="Numero do Whatsapp"
+                            />
+                        </div>
+                        <div class="box_form">
+                            <label for="interest"
+                                >Tecnologia de interesse</label
+                            >
+                            <select name="interest">
+                                <option value="selecione" disabled selected>
+                                    Selecione
+                                </option>
+                                <option value="javaScript">javaScript</option>
+                                <option value="java">java</option>
+                                <option value="python">python</option>
+                                <option value="C#">C#</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Inscrever" id="botao" />
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
