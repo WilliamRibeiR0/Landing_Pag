@@ -99,3 +99,29 @@ form p{
     padding: 6px 8px;
     font-size: 1.4em;
 }
+
+/* --------------------------section_learn top--------------------------------- */
+
+.top{
+    height: 12vh;
+    background-color: var(--secondary);
+    display: grid;
+    place-items: center;
+}
+
+/* --------------------------section_learn bottom--------------------------------- */
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.tec{
+    text-align: center;
+}
+
+.tec p{
+    padding: 20px;
+}
